@@ -17,4 +17,12 @@ public class Calculator {
 		return (a/b);
 	}
 
+	public static void main(String [] args) {
+		Calculator c=new Calculator();
+		c.add(1.2, 3.5);
+		c.subtract(5.7, 4);
+		c.multiply(3.5,6.7);
+		c.divide(10, 2);
+		
+	}
 }
